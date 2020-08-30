@@ -1,0 +1,103 @@
+body {
+    background-color:white;
+    color:#555;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.6em;
+    margin:0;
+}
+
+#firstTitle {
+    text-align:left; 
+    color: #0CB490;
+}
+
+/* #secondTitle {
+    float:left;
+    color:gray;
+} */
+
+.container {
+    width:80%;
+    overflow:hidden;
+    margin:auto;
+}
+
+.main-shit {
+    background-color: #E5E5E5;
+}
+
+header {
+    /* background-color:black; */
+    /* color:white; */
+}
+
+#navbar {
+    /* background-color:darkgray; */
+    color: #0CB490;
+}
+
+#navbar ul {
+    padding:0px;
+    list-style: none;
+}
+
+#navbar li {
+    display:inline;
+}
+
+#navbar a {
+    color: #0CB490;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#showcase {
+    background-image: url("../images/taiw.jpg");
+    background-position: center right;
+    height: 300px;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+#main{
+    float:left;
+    width:70%;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float:right;
+    width:30%;
+    padding: 0px 30px;
+    box-sizing: border-box;
+    background-color: darkgray;
+    color:white;
+}
+
+#main-footer {
+    background:darkgray;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+    margin-bottom: 300px;
+}
+
+a:hover {
+    background-color:lightgray;
+}
+
+@media (max-width:600px){
+    #main{
+        width:100%;
+        float: none;
+    }
+
+    #sidebar{
+        width:100%;
+        float:none;
+    }
+}
