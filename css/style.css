@@ -1,40 +1,27 @@
 body {
-    background-color:white;
-    color:#555;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:16px;
-    line-height:1.6em;
-    margin:0;
+    background: #E5E5E5;
+    font-family: 'Rubik';
 }
 
-#firstTitle {
-    text-align:left; 
-    color: #0CB490;
+html, body {
+    overflow-x: hidden;
+    margin: 0;
 }
 
-/* #secondTitle {
-    float:left;
-    color:gray;
-} */
+#header {
+    background: #FFFFFF;
+    width: 100%;
+    margin: 0 -9999rem;
+    /* add back negative margin value */
+    padding: 0.25rem 9999rem;
+    display: flex;
 
-.container {
-    width:80%;
-    overflow:hidden;
-    margin:auto;
-}
-
-.main-shit {
-    background-color: #E5E5E5;
-}
-
-header {
-    /* background-color:black; */
-    /* color:white; */
 }
 
 #navbar {
-    /* background-color:darkgray; */
-    color: #0CB490;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
 }
 
 #navbar ul {
@@ -44,60 +31,35 @@ header {
 
 #navbar li {
     display:inline;
+    padding: 50px;
 }
 
 #navbar a {
-    color: #0CB490;
+    color: #313131;
     text-decoration: none;
     font-size: 18px;
     padding-right: 15px;
 }
 
-#showcase {
-    background-image: url("../images/taiw.jpg");
-    background-position: center right;
-    height: 300px;
-    margin-bottom: 20px;
-    text-align:center;
+#firstTitle {
+    font-size: 30px;
+    margin-left: 30px;
 }
 
-#main{
-    float:left;
-    width:70%;
-    padding:10px;
-    box-sizing: border-box;
+h1 a {
+    text-decoration: none;
+    color: black;
 }
 
-#sidebar {
-    float:right;
-    width:30%;
-    padding: 0px 30px;
-    box-sizing: border-box;
-    background-color: darkgray;
-    color:white;
+#main {
+    margin-left: 30px;
 }
 
 #main-footer {
-    background:darkgray;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:40px;
-    margin-bottom: 300px;
-}
-
-a:hover {
-    background-color:lightgray;
-}
-
-@media (max-width:600px){
-    #main{
-        width:100%;
-        float: none;
-    }
-
-    #sidebar{
-        width:100%;
-        float:none;
-    }
+    float: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	bottom: 0px;
+	width: 100%;
 }

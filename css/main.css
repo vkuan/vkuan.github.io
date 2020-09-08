@@ -1,0 +1,113 @@
+body {
+    background: #E5E5E5;
+    font-family: 'Rubik';
+}
+
+html, body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+}
+
+#header {
+    background: #FFFFFF;
+    width: 100%;
+    margin: 0 -9999rem;
+    /* add back negative margin value */
+    padding: 0.25rem 9999rem;
+    display: flex;
+
+}
+
+#navbar {
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+}
+
+#navbar ul {
+    padding:0px;
+    list-style: none;
+}
+
+#navbar li {
+    display:inline;
+    padding: 50px;
+}
+
+#navbar a {
+    color: #313131;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#firstTitle {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+#main-header img {
+    display: inline;
+}
+
+#main-header h1 {
+    display: inline;
+}
+
+#main-header nav {
+    display: inline;
+}
+
+#big-text {
+    color: #0CB490;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+#main {
+    margin-left: 35px;
+    margin-top: -500px;
+    margin-bottom: -600px;
+}
+
+#description {
+    font-size: 31px;
+    font-weight: normal;
+}
+
+#blob1 {
+    position: relative;
+    width: 327.72px;
+    height: 266.42px;
+    left: 1000px;
+    bottom: 52px;
+}
+
+#profiles {
+    position: relative;
+    width: 580px;
+    height: 740px;
+    left: 1100px;
+    bottom: 400px;
+}
+
+#blob2 {
+    position: relative;
+    width: 539.21px;
+    height: 403.79px;
+    left: 1500px;
+}
+
+#blob3 {
+    position: relative;
+    width: 476.74px;
+    height: 400.12px;
+    left: 1000px;
+    bottom: 100px;
+}
